@@ -4,10 +4,7 @@
     <header class="main-header">
       <div class="header-content">
         <!-- Logo area -->
-        <NuxtLink to="/" class="logo-link">
-          <img src="/images/logo.png" alt="Al Khaled Logo" class="site-logo" />
-        </NuxtLink>
-        
+        <NuxtLink to="/" class="logo-link">Al khaled</NuxtLink>
         <!-- Navigation Links -->
         <nav class="nav-links">
           <NuxtLink to="/">Home</NuxtLink>
