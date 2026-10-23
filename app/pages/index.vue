@@ -70,10 +70,6 @@
         <h2>Network Switch Configuration</h2>
       </NuxtLink>
       <!-- 12.logo -->
-      <NuxtLink to="/installation" class="card">
-        <img src="/images/logo.png" alt="logo" />
-        <h2>logo</h2>
-      </NuxtLink>
     </div>
   </div>
 </template>

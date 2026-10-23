@@ -4,7 +4,11 @@
     <header class="main-header">
       <div class="header-content">
         <!-- Logo area -->
-        <NuxtLink to="/" class="logo-link">Al khaled</NuxtLink>
+<!-- Logo area -->
+     <NuxtLink to="/" class="logo-link">
+        <img src="/images/logo.png" alt="Al Khaled Logo" class="header-logo" />
+         <span>Al khaled</span>
+    </NuxtLink>
         <!-- Navigation Links -->
         <nav class="nav-links">
           <NuxtLink to="/">Home</NuxtLink>
@@ -36,7 +40,6 @@ body {
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   border-bottom: 2px solid #d4af37; /* Gold bottom border */
 }
-
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,30 +48,13 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-/* Logo Image Styling */
-.logo-link {
-  display: flex;
-  align-items: center;
-}
-
-.site-logo {
-  height: 70px; /* Adjust this to make the logo bigger or smaller */
-  width: auto;
-  border-radius: 50%; /* This makes the image circular */
-  transition: transform 0.3s ease;
-}
-
-.site-logo:hover {
-  transform: scale(1.05); /* Slight zoom effect when hovering over the logo */
-}
-
-/* Navigation Links */
-.nav-links {
+.header-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
   display: flex;
   gap: 2rem;
 }
-
 .nav-links a {
   color: #cbd5e0;
   text-decoration: none;
